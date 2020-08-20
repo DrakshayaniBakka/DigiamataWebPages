@@ -27,7 +27,7 @@
         <form class="form-inline my-2 my-lg-0">
           <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
         </form>
-          <a routerLink='/home' style="text-decoration-line: none;"><button type="button" class="btn" id="navbutton">login</button></a>
+         <a routerLink='/home'> <button type="button" class="btn" id="navbutton">login</button></a>
       </div>
     </nav>
   </ion-toolbar>
@@ -40,33 +40,28 @@
     <ion-col>
       <img src="https://thecryptocurrencymagazine.com/wp-content/uploads/2017/12/tech2.jpg">
         <div class="signup">
-          <h1><strong>Your Assets At Our Safety</strong></h1>
-           <h4>Don't have an account here?</h4>
-       <a routerLink='/signup'style="text-decoration:none"><button type="button" class="btn" id="butto"> Create Account</button></a>
+          <h1><strong>The Way to Digital Immortality</strong></h1>
+           <h4>Already have an account?</h4>
+       <a routerLink='/home'style="text-decoration:none"><button type="button" class="btn" id="butto">Login Here</button></a>
     </div>
       </ion-col>
         <ion-col>
           <div class="container">
           <ion-item lines="none">
-            <strong>Secure Your Digital Assets Right here</strong>
+            <strong>Lets Start! It's an easy two way process</strong>
           </ion-item>
           <ion-item class="reduce">
-            <ion-label position="floating">Email</ion-label>
+            <ion-label position="floating">Enter Email Id</ion-label>
             <ion-input required autocomplete="email" type="email" autofocus=true clear-input=true minlength="15" maxlength="30" placeholder="Enter email here..."></ion-input>
           </ion-item>
           <ion-item class="reduce">
-            <ion-label position="floating">Password</ion-label>
-            <ion-input  required autocomplete="password" type="password" clear-input=true minlength="15" maxlength="30" placeholder="Password here...." required=true></ion-input>
+            <ion-label position="floating">Enter Mobile Number</ion-label>
+            <ion-input  required autocomplete="number" type="number" clear-input=true minlength="10" maxlength="10" placeholder="Mobile Number here...." required></ion-input>
           </ion-item>
-          <ion-item lines="none" class="here">
-            <label><input type="checkbox">Remember me</label>
-            <a routerLink="#" slot="end" style="text-decoration-line: none;">Forgot Password?</a>
-          </ion-item>
-          <ion-item lines="none" class="terms">
-            <label><input type="checkbox">By Proceeding I accept <a routerLink="#" style="text-decoration:none">Terms and Conditions</a></label>
-          </ion-item>
+         
+          
           <ion-item lines="none">
-            <button type="button" class="btn" id="buttonid">login</button>
+            <a routerLink='/signup2'><button type="button" class="btn" id="buttonid">Next</button></a>
           </ion-item>
           </div>
         </ion-col>

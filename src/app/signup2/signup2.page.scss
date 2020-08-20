@@ -1,0 +1,118 @@
+#new button{
+    background-color:#0a4f69;
+    color:white;
+    padding:5px 20px;
+    border-radius:0px;
+  }
+  #new ul li a{
+    color:black;
+    font-weight:bold;
+  }
+  
+  #new ul li a:hover{
+    color:#12304d;
+  }
+  .container ion-grid{
+      margin:0;
+  }
+   //#content ion-row ion-col:first-child img{
+    // box-sizing:border-box;
+    // position:absolute;
+    // height:91.5%;
+    // width:50%;
+  //}
+  .signup{
+    margin:220px 100px;
+    color:black;
+    position:relative;
+    
+  }
+  #butto{
+    background-color:#2d967c;
+    color:white;
+  }
+  #content img{
+    height:790px;
+    position:absolute;
+    box-sizing:border-box;
+    margin:-5px;
+    padding:0;
+    z-index:0;
+    opacity:0.9;
+  }
+  #content img:hover{
+    opacity:0.8;
+  }
+  #buttonid{
+    background-color:#0a4f69;
+    color:white;
+    margin-left:300px;
+    margin-right:10px;
+   padding:5px 20px;
+   text-align:center;
+   font-size:18px;
+   border-radius:0px;
+  }
+  #buttonid::after{
+    background-color:#0a4f69;
+  }
+  #buttonid2{
+      background-color:#0a4f69;
+      color:white;
+      border-radius:0px;
+      padding:5px 20px;
+      text-align:center;
+      font-size:18px;
+  }
+  ion-item{
+      margin-bottom:10px;
+  }
+  .container ion-item:last-child{
+      margin-top:20px;
+  }
+  .container ion-item strong{
+    margin-left:22px;
+    font-family:monospace;
+    font-size:22px;
+    padding-top:30px;
+    padding-bottom:20px;
+  }
+  .here{
+    margin-top:20px;
+    margin-left:30px;
+    margin-right:3px;
+  }
+  .terms{
+    margin-top:5px;
+    margin-left:30px;
+    margin-right:5px;
+  }
+  .container ion-grid{
+      ion-row{
+          margin-top:0;
+          margin-bottom:0;
+      }
+  }
+   .reduce{
+    margin:0px;
+    padding:0px;
+    width:350px;
+    margin-left:30px;
+    color:black;
+    margin-bottom:0px;
+  }
+  .reduce1{
+      width:100px;
+  }
+  ion-grid{
+    margin:0;
+    padding:0;
+  }
+  .rows{
+      padding-bottom:3px;
+  }
+  #first{
+      width:350px;
+      margin-left:30px;
+      color:#0a4f69;
+  }

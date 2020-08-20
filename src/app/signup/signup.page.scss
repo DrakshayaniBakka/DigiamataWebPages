@@ -1,0 +1,83 @@
+#new button{
+    background-color:#0a4f69;
+    color:white;
+    padding:5px 20px;
+    border-radius:0px;
+  }
+  #new ul li a{
+    color:black;
+    font-weight:bold;
+  }
+  
+  #new ul li a:hover{
+    color:#12304d;
+  }
+   //#content ion-row ion-col:first-child img{
+    // box-sizing:border-box;
+    // position:absolute;
+    // height:91.5%;
+    // width:50%;
+  //}
+  .signup{
+    margin:220px 100px;
+    color:black;
+    position:relative;
+    
+  }
+  #butto{
+    background-color:#2d967c;
+    color:white;
+  }
+  #content img{
+    height:600.5px;
+    position:absolute;
+    box-sizing:border-box;
+    margin:-5px;
+    padding:0;
+    z-index:0;
+    opacity:0.9;
+  }
+  #content img:hover{
+    opacity:0.8;
+  }
+  #buttonid{
+    background-color:#0a4f69;
+    color:white;
+    margin-left:400px;
+   padding:5px 20px;
+   text-align:center;
+   font-size:18px;
+   border-radius:0px;
+  }
+  
+  .container ion-item:last-child{
+      margin-top:20px;
+  }
+  .container ion-item strong{
+    margin-left:22px;
+    font-family:monospace;
+    font-size:22px;
+    padding-top:30px;
+    padding-bottom:20px;
+  }
+  .here{
+    margin-top:20px;
+    margin-left:30px;
+    margin-right:3px;
+  }
+  .terms{
+    margin-top:5px;
+    margin-left:30px;
+    margin-right:5px;
+  }
+  
+  .reduce{
+    width:500px;
+    margin-left:30px;
+    margin-bottom:10px;
+    color:black;
+  }
+  ion-grid{
+    margin:0;
+    padding:0;
+  }
